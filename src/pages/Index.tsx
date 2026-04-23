@@ -3,7 +3,7 @@ import Icon from "@/components/ui/icon";
 
 const HERO_IMG = "https://cdn.poehali.dev/projects/4060d726-fd2c-4061-977f-3a50aadaa9b3/bucket/c1cc64fe-39c2-472b-b6a1-2b9894d20aa1.jpg";
 const PEOPLE_IMG = "https://cdn.poehali.dev/projects/4060d726-fd2c-4061-977f-3a50aadaa9b3/bucket/c1cc64fe-39c2-472b-b6a1-2b9894d20aa1.jpg";
-const ICONS_IMG = "https://cdn.poehali.dev/projects/4060d726-fd2c-4061-977f-3a50aadaa9b3/bucket/3d6b7e51-20ec-4781-9dff-8ab359a7cf61.png";
+const ICONS_IMG = "https://cdn.poehali.dev/projects/4060d726-fd2c-4061-977f-3a50aadaa9b3/bucket/1faac943-9c50-4b4b-b84f-b89d248e93c0.PNG";
 const SCREEN1_IMG = "https://cdn.poehali.dev/projects/4060d726-fd2c-4061-977f-3a50aadaa9b3/bucket/8b2e8937-708f-459e-a5cc-081b73d98fde.PNG";
 const SCREEN2_IMG = "https://cdn.poehali.dev/projects/4060d726-fd2c-4061-977f-3a50aadaa9b3/bucket/203ae7ea-8f98-4a3a-8c56-0d594ab8e364.PNG";
 const SCREEN3_IMG = "https://cdn.poehali.dev/projects/4060d726-fd2c-4061-977f-3a50aadaa9b3/bucket/42464dc1-2922-4310-a479-92f446487a7d.PNG";
