@@ -75,7 +75,7 @@ export default function Index() {
       {/* NAV */}
       <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 md:px-12 py-5"
         style={{ background: "rgba(13,13,13,0.85)", backdropFilter: "blur(20px)", borderBottom: "1px solid rgba(212,168,67,0.1)" }}>
-        <span className="font-bold gold-text" style={{ fontFamily: "'Cormorant', serif", fontSize: "1.3rem" }}>
+        <span className="font-bold gold-text" style={{ fontFamily: "'Oswald', sans-serif", fontSize: "1.3rem" }}>
           Перепрошитые
         </span>
         <a href="#join" className="btn-gold px-5 py-2 rounded-full text-sm font-semibold">
@@ -116,14 +116,14 @@ export default function Index() {
           </div>
 
           <h1 className="animate-fade-in-up delay-200 mb-6 leading-none"
-            style={{ fontFamily: "'Cormorant', serif", fontSize: "clamp(3rem, 8vw, 6.5rem)", fontWeight: 300, letterSpacing: "-0.02em" }}>
+            style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(3rem, 8vw, 6.5rem)", fontWeight: 300, letterSpacing: "-0.02em" }}>
             <span style={{ color: "#EDE8DC" }}>Закрытое сообщество</span>
             <br />
             <span className="gold-text" style={{ fontStyle: "italic" }}>счастливых людей</span>
           </h1>
 
           <p className="animate-fade-in-up delay-300 mb-10 mx-auto max-w-xl"
-            style={{ fontSize: "1.15rem", color: "rgba(237,232,220,0.65)", lineHeight: 1.7, fontFamily: "'Golos Text', sans-serif" }}>
+            style={{ fontSize: "1.15rem", color: "rgba(237,232,220,0.65)", lineHeight: 1.7, fontFamily: "'Montserrat', sans-serif" }}>
             Общайся, расти, находи своих.<br />В одной экосистеме — только те, кто уже прошёл путь.
           </p>
 
@@ -143,7 +143,7 @@ export default function Index() {
               <div key={i} className="flex items-center gap-8">
                 {i > 0 && <div style={{ width: 1, height: 40, background: "rgba(212,168,67,0.2)" }} />}
                 <div className="text-center">
-                  <div className="text-3xl font-bold gold-text" style={{ fontFamily: "'Cormorant', serif" }}>{val}</div>
+                  <div className="text-3xl font-bold gold-text" style={{ fontFamily: "'Oswald', sans-serif" }}>{val}</div>
                   <div className="text-xs mt-1" style={{ color: "rgba(237,232,220,0.45)", letterSpacing: "0.05em" }}>{label}</div>
                 </div>
               </div>
@@ -161,7 +161,7 @@ export default function Index() {
       <section className="reveal py-24 px-6 md:px-12 max-w-5xl mx-auto">
         <div className="text-center mb-16">
           <span className="inline-block px-3 py-1 mb-4 text-xs tracking-widest uppercase" style={{ color: "rgba(212,168,67,0.6)" }}>Знакомо?</span>
-          <h2 style={{ fontFamily: "'Cormorant', serif", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: 300, color: "#EDE8DC", lineHeight: 1.1 }}>
+          <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: 300, color: "#EDE8DC", lineHeight: 1.1 }}>
             Когда вокруг много людей,<br />
             <span className="gold-text" style={{ fontStyle: "italic" }}>но ты всё равно один</span>
           </h2>
@@ -173,7 +173,7 @@ export default function Index() {
                 style={{ background: "rgba(212,168,67,0.1)", border: "1px solid rgba(212,168,67,0.3)" }}>
                 <span style={{ color: "#D4A843", fontSize: "0.75rem", fontWeight: 700 }}>{i + 1}</span>
               </div>
-              <p style={{ color: "rgba(237,232,220,0.75)", lineHeight: 1.6, fontFamily: "'Golos Text', sans-serif" }}>{p}</p>
+              <p style={{ color: "rgba(237,232,220,0.75)", lineHeight: 1.6, fontFamily: "'Montserrat', sans-serif" }}>{p}</p>
             </div>
           ))}
         </div>
@@ -184,12 +184,12 @@ export default function Index() {
         style={{ background: "rgba(212,168,67,0.03)", borderTop: "1px solid rgba(212,168,67,0.08)", borderBottom: "1px solid rgba(212,168,67,0.08)" }}>
         <div className="max-w-3xl mx-auto">
           <p className="text-xs tracking-widest uppercase mb-6" style={{ color: "rgba(212,168,67,0.5)" }}>Решение</p>
-          <h2 style={{ fontFamily: "'Cormorant', serif", fontSize: "clamp(2.5rem, 5vw, 4.5rem)", fontWeight: 300, color: "#EDE8DC", lineHeight: 1.15 }}>
+          <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4.5rem)", fontWeight: 300, color: "#EDE8DC", lineHeight: 1.15 }}>
             Мы создали пространство, где<br />
             <span className="gold-text" style={{ fontStyle: "italic" }}>все уже на одной волне</span>
           </h2>
           <p className="mt-6 text-lg mx-auto max-w-lg"
-            style={{ color: "rgba(237,232,220,0.6)", fontFamily: "'Golos Text', sans-serif", lineHeight: 1.7 }}>
+            style={{ color: "rgba(237,232,220,0.6)", fontFamily: "'Montserrat', sans-serif", lineHeight: 1.7 }}>
             Каждый участник прошёл трансформацию. Случайных людей нет. Здесь говорят честно, поддерживают без осуждения, создают вместе.
           </p>
         </div>
@@ -199,7 +199,7 @@ export default function Index() {
       <section id="what-inside" className="reveal py-24 px-6 md:px-12 max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <p className="text-xs tracking-widest uppercase mb-4" style={{ color: "rgba(212,168,67,0.5)" }}>Структура</p>
-          <h2 style={{ fontFamily: "'Cormorant', serif", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: 300, color: "#EDE8DC" }}>
+          <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: 300, color: "#EDE8DC" }}>
             Что внутри экосистемы
           </h2>
         </div>
@@ -225,7 +225,7 @@ export default function Index() {
                   </div>
                   <div>
                     <div className="font-semibold text-sm mb-0.5" style={{ color: "#EDE8DC" }}>{chat.name}</div>
-                    <div className="text-xs" style={{ color: "rgba(237,232,220,0.45)", fontFamily: "'Golos Text', sans-serif" }}>{chat.desc}</div>
+                    <div className="text-xs" style={{ color: "rgba(237,232,220,0.45)", fontFamily: "'Montserrat', sans-serif" }}>{chat.desc}</div>
                   </div>
                 </div>
               ))}
@@ -241,7 +241,7 @@ export default function Index() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-xs tracking-widest uppercase mb-4" style={{ color: "rgba(212,168,67,0.5)" }}>Почему это работает</p>
-            <h2 style={{ fontFamily: "'Cormorant', serif", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: 300, color: "#EDE8DC" }}>
+            <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: 300, color: "#EDE8DC" }}>
               Преимущества
             </h2>
           </div>
@@ -249,8 +249,8 @@ export default function Index() {
             {benefits.map((b, i) => (
               <div key={i} className="glass-card rounded-2xl p-7">
                 <span className="text-3xl mb-5 block">{b.icon}</span>
-                <h3 className="mb-2 font-semibold" style={{ fontFamily: "'Cormorant', serif", color: "#EDE8DC", fontSize: "1.3rem" }}>{b.title}</h3>
-                <p style={{ color: "rgba(237,232,220,0.55)", lineHeight: 1.65, fontSize: "0.9rem", fontFamily: "'Golos Text', sans-serif" }}>{b.desc}</p>
+                <h3 className="mb-2 font-semibold" style={{ fontFamily: "'Oswald', sans-serif", color: "#EDE8DC", fontSize: "1.3rem" }}>{b.title}</h3>
+                <p style={{ color: "rgba(237,232,220,0.55)", lineHeight: 1.65, fontSize: "0.9rem", fontFamily: "'Montserrat', sans-serif" }}>{b.desc}</p>
               </div>
             ))}
           </div>
@@ -261,7 +261,7 @@ export default function Index() {
       <section className="reveal py-24 px-6 md:px-12 max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <p className="text-xs tracking-widest uppercase mb-4" style={{ color: "rgba(212,168,67,0.5)" }}>Отзывы</p>
-          <h2 style={{ fontFamily: "'Cormorant', serif", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: 300, color: "#EDE8DC" }}>
+          <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: 300, color: "#EDE8DC" }}>
             Что говорят участники
           </h2>
         </div>
@@ -273,7 +273,7 @@ export default function Index() {
                   <span key={s} style={{ color: "#D4A843", fontSize: "0.9rem" }}>★</span>
                 ))}
               </div>
-              <p style={{ color: "rgba(237,232,220,0.75)", lineHeight: 1.65, fontStyle: "italic", fontFamily: "'Cormorant', serif", fontSize: "1.05rem" }}>
+              <p style={{ color: "rgba(237,232,220,0.75)", lineHeight: 1.65, fontStyle: "italic", fontFamily: "'Oswald', sans-serif", fontSize: "1.05rem" }}>
                 «{r.text}»
               </p>
               <div className="mt-auto pt-3" style={{ borderTop: "1px solid rgba(212,168,67,0.1)" }}>
@@ -288,7 +288,7 @@ export default function Index() {
           <div className="absolute inset-0 flex items-center justify-center"
             style={{ background: "linear-gradient(to right, rgba(13,13,13,0.7) 0%, rgba(13,13,13,0.3) 50%, rgba(13,13,13,0.7) 100%)" }}>
             <div className="text-center">
-              <div className="text-5xl font-light gold-text mb-2" style={{ fontFamily: "'Cormorant', serif" }}>4 000+</div>
+              <div className="text-5xl font-light gold-text mb-2" style={{ fontFamily: "'Oswald', sans-serif" }}>4 000+</div>
               <div className="text-sm tracking-widest uppercase" style={{ color: "rgba(237,232,220,0.6)" }}>счастливых участников</div>
             </div>
           </div>
@@ -301,7 +301,7 @@ export default function Index() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-xs tracking-widest uppercase mb-4" style={{ color: "rgba(212,168,67,0.5)" }}>Всё просто</p>
-            <h2 style={{ fontFamily: "'Cormorant', serif", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: 300, color: "#EDE8DC" }}>
+            <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: 300, color: "#EDE8DC" }}>
               Как это работает
             </h2>
           </div>
@@ -309,15 +309,15 @@ export default function Index() {
             {steps.map((s, i) => (
               <div key={i} className="text-center relative">
                 <div className="w-16 h-16 rounded-full mx-auto mb-5 flex items-center justify-center text-2xl font-bold"
-                  style={{ border: "1px solid rgba(212,168,67,0.4)", background: "rgba(212,168,67,0.05)", color: "#D4A843", fontFamily: "'Cormorant', serif" }}>
+                  style={{ border: "1px solid rgba(212,168,67,0.4)", background: "rgba(212,168,67,0.05)", color: "#D4A843", fontFamily: "'Oswald', sans-serif" }}>
                   {s.num}
                 </div>
                 {i < steps.length - 1 && (
                   <div className="hidden md:block absolute top-8 h-px"
                     style={{ left: "calc(50% + 2rem)", right: "calc(-50% + 2rem)", background: "linear-gradient(to right, rgba(212,168,67,0.4), rgba(212,168,67,0.1))" }} />
                 )}
-                <h3 className="font-semibold mb-2" style={{ color: "#EDE8DC", fontFamily: "'Cormorant', serif", fontSize: "1.2rem" }}>{s.title}</h3>
-                <p className="text-sm" style={{ color: "rgba(237,232,220,0.5)", fontFamily: "'Golos Text', sans-serif" }}>{s.desc}</p>
+                <h3 className="font-semibold mb-2" style={{ color: "#EDE8DC", fontFamily: "'Oswald', sans-serif", fontSize: "1.2rem" }}>{s.title}</h3>
+                <p className="text-sm" style={{ color: "rgba(237,232,220,0.5)", fontFamily: "'Montserrat', sans-serif" }}>{s.desc}</p>
               </div>
             ))}
           </div>
@@ -330,14 +330,14 @@ export default function Index() {
           style={{ background: "radial-gradient(circle, rgba(212,168,67,0.08) 0%, transparent 70%)" }} />
         <div className="relative z-10 max-w-3xl mx-auto">
           <h2 className="mb-8"
-            style={{ fontFamily: "'Cormorant', serif", fontSize: "clamp(3rem, 6vw, 5.5rem)", fontWeight: 300, lineHeight: 1.1, color: "#EDE8DC" }}>
+            style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(3rem, 6vw, 5.5rem)", fontWeight: 300, lineHeight: 1.1, color: "#EDE8DC" }}>
             Ты больше<br />
             <span className="gold-text" style={{ fontStyle: "italic" }}>не один</span>
           </h2>
-          <p className="mb-4" style={{ color: "rgba(237,232,220,0.6)", fontFamily: "'Cormorant', serif", fontStyle: "italic", fontSize: "1.4rem" }}>
+          <p className="mb-4" style={{ color: "rgba(237,232,220,0.6)", fontFamily: "'Oswald', sans-serif", fontStyle: "italic", fontSize: "1.4rem" }}>
             Ты среди своих.
           </p>
-          <p style={{ color: "rgba(237,232,220,0.45)", fontFamily: "'Golos Text', sans-serif", fontSize: "1.05rem" }}>
+          <p style={{ color: "rgba(237,232,220,0.45)", fontFamily: "'Montserrat', sans-serif", fontSize: "1.05rem" }}>
             Здесь тебя понимают. Здесь тебя ждут.
           </p>
         </div>
@@ -349,16 +349,16 @@ export default function Index() {
         <div className="max-w-2xl mx-auto">
           <p className="text-xs tracking-widest uppercase mb-6" style={{ color: "rgba(212,168,67,0.5)" }}>Начать прямо сейчас</p>
           <h2 className="mb-4"
-            style={{ fontFamily: "'Cormorant', serif", fontSize: "clamp(2.5rem, 5vw, 4.5rem)", fontWeight: 300, color: "#EDE8DC", lineHeight: 1.1 }}>
+            style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4.5rem)", fontWeight: 300, color: "#EDE8DC", lineHeight: 1.1 }}>
             Вступить в сообщество
           </h2>
           <p className="mb-10"
-            style={{ color: "rgba(237,232,220,0.55)", fontFamily: "'Golos Text', sans-serif", fontSize: "1.1rem", lineHeight: 1.7 }}>
+            style={{ color: "rgba(237,232,220,0.55)", fontFamily: "'Montserrat', sans-serif", fontSize: "1.1rem", lineHeight: 1.7 }}>
             99 рублей в месяц. Полный доступ ко всей экосистеме.<br />
             Никаких скрытых платежей и условий.
           </p>
           <div className="glass-card rounded-3xl p-8 mb-8" style={{ border: "1px solid rgba(212,168,67,0.2)" }}>
-            <div className="text-6xl font-bold gold-text mb-2" style={{ fontFamily: "'Cormorant', serif" }}>99₽</div>
+            <div className="text-6xl font-bold gold-text mb-2" style={{ fontFamily: "'Oswald', sans-serif" }}>99₽</div>
             <div className="text-sm mb-8" style={{ color: "rgba(237,232,220,0.4)", letterSpacing: "0.1em" }}>В МЕСЯЦ</div>
             <div className="flex flex-col gap-3 mb-8 text-left">
               {features.map((f, i) => (
@@ -367,7 +367,7 @@ export default function Index() {
                     style={{ background: "rgba(212,168,67,0.15)", border: "1px solid rgba(212,168,67,0.4)" }}>
                     <Icon name="Check" size={11} style={{ color: "#D4A843" }} />
                   </div>
-                  <span className="text-sm" style={{ color: "rgba(237,232,220,0.7)", fontFamily: "'Golos Text', sans-serif" }}>{f}</span>
+                  <span className="text-sm" style={{ color: "rgba(237,232,220,0.7)", fontFamily: "'Montserrat', sans-serif" }}>{f}</span>
                 </div>
               ))}
             </div>
@@ -376,7 +376,7 @@ export default function Index() {
               <Icon name="ArrowRight" size={20} />
             </button>
           </div>
-          <p className="text-xs" style={{ color: "rgba(237,232,220,0.3)", fontFamily: "'Golos Text', sans-serif" }}>
+          <p className="text-xs" style={{ color: "rgba(237,232,220,0.3)", fontFamily: "'Montserrat', sans-serif" }}>
             Начать новую среду уже сегодня
           </p>
         </div>
@@ -384,8 +384,8 @@ export default function Index() {
 
       {/* FOOTER */}
       <footer className="py-10 px-6 text-center" style={{ borderTop: "1px solid rgba(212,168,67,0.08)" }}>
-        <div className="gold-text text-xl mb-2" style={{ fontFamily: "'Cormorant', serif" }}>Сообщество Перепрошитых</div>
-        <p className="text-xs" style={{ color: "rgba(237,232,220,0.25)", fontFamily: "'Golos Text', sans-serif" }}>
+        <div className="gold-text text-xl mb-2" style={{ fontFamily: "'Oswald', sans-serif" }}>Сообщество Перепрошитых</div>
+        <p className="text-xs" style={{ color: "rgba(237,232,220,0.25)", fontFamily: "'Montserrat', sans-serif" }}>
           © 2024 · Экосистема счастливых людей
         </p>
       </footer>
