@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import Icon from "@/components/ui/icon";
 
-const HERO_IMG = "https://cdn.poehali.dev/projects/4060d726-fd2c-4061-977f-3a50aadaa9b3/files/dbb1b064-56b2-414f-8703-b790d1eace61.jpg";
-const PEOPLE_IMG = "https://cdn.poehali.dev/projects/4060d726-fd2c-4061-977f-3a50aadaa9b3/files/710e82f1-50b2-4900-92bc-c22492c9781a.jpg";
+const HERO_IMG = "https://cdn.poehali.dev/projects/4060d726-fd2c-4061-977f-3a50aadaa9b3/bucket/c1cc64fe-39c2-472b-b6a1-2b9894d20aa1.jpg";
+const PEOPLE_IMG = "https://cdn.poehali.dev/projects/4060d726-fd2c-4061-977f-3a50aadaa9b3/bucket/c1cc64fe-39c2-472b-b6a1-2b9894d20aa1.jpg";
 
 const reviews = [
   { name: "Анастасия К.", city: "Москва", text: "Впервые за долгое время я нашла людей, которые реально понимают. Здесь нет масок — только настоящие.", stars: 5 },
@@ -86,8 +86,8 @@ export default function Index() {
       {/* HERO */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
         <div className="absolute inset-0">
-          <img src={HERO_IMG} alt="" className="w-full h-full object-cover" style={{ opacity: 0.25 }} />
-          <div className="absolute inset-0" style={{ background: "linear-gradient(180deg, rgba(13,13,13,0.3) 0%, rgba(13,13,13,0.6) 50%, #0D0D0D 100%)" }} />
+          <img src={HERO_IMG} alt="" className="w-full h-full object-cover" style={{ opacity: 0.45 }} />
+          <div className="absolute inset-0" style={{ background: "linear-gradient(180deg, rgba(13,13,13,0.5) 0%, rgba(13,13,13,0.55) 50%, #0D0D0D 100%)" }} />
         </div>
 
         <div className="orb w-96 h-96 top-20 -left-20" style={{ background: "radial-gradient(circle, rgba(212,168,67,0.15) 0%, transparent 70%)" }} />
@@ -284,7 +284,7 @@ export default function Index() {
           ))}
         </div>
         <div className="rounded-3xl overflow-hidden relative" style={{ height: 300, border: "1px solid rgba(212,168,67,0.15)" }}>
-          <img src={PEOPLE_IMG} alt="Участники сообщества" className="w-full h-full object-cover" style={{ opacity: 0.7 }} />
+          <img src={PEOPLE_IMG} alt="Участники сообщества" className="w-full h-full object-cover" style={{ opacity: 0.85 }} />
           <div className="absolute inset-0 flex items-center justify-center"
             style={{ background: "linear-gradient(to right, rgba(13,13,13,0.7) 0%, rgba(13,13,13,0.3) 50%, rgba(13,13,13,0.7) 100%)" }}>
             <div className="text-center">
