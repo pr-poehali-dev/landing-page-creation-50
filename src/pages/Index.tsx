@@ -98,7 +98,7 @@ export default function Index() {
         <span className="font-bold gold-text tracking-widest" style={{ ...H, fontSize: "1.2rem", letterSpacing: "0.1em" }}>
           ПЕРЕПРОШИТЫЕ
         </span>
-        <a href="#join" className="btn-gold px-5 py-2 rounded-full text-sm font-bold tracking-wide" style={M}>
+        <a href="https://t.me/addlist/e3INym3Ew-VhNTY6" target="_blank" rel="noopener noreferrer" className="btn-gold px-5 py-2 rounded-full text-sm font-bold tracking-wide" style={M}>
           ВСТУПИТЬ ЗА 99₽
         </a>
       </nav>
@@ -137,7 +137,7 @@ export default function Index() {
           </p>
 
           <div className="animate-fade-in-up delay-500 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="#join" className="btn-gold animate-glow-pulse px-10 py-4 rounded-full font-bold inline-flex items-center gap-2"
+            <a href="https://t.me/addlist/e3INym3Ew-VhNTY6" target="_blank" rel="noopener noreferrer" className="btn-gold animate-glow-pulse px-10 py-4 rounded-full font-bold inline-flex items-center gap-2"
                style={{ ...H, fontSize: "1.1rem", letterSpacing: "0.08em" }}>
               ВСТУПИТЬ В ЭКОСИСТЕМУ ЗА 99₽
             </a>
@@ -407,11 +407,12 @@ export default function Index() {
                 </div>
               ))}
             </div>
-            <button className="btn-gold w-full py-4 rounded-2xl font-bold flex items-center justify-center gap-3"
+            <a href="https://t.me/addlist/e3INym3Ew-VhNTY6" target="_blank" rel="noopener noreferrer"
+              className="btn-gold w-full py-4 rounded-2xl font-bold flex items-center justify-center gap-3"
               style={{ ...H, fontSize: "1.1rem", letterSpacing: "0.08em" }}>
               ВСТУПИТЬ В ЭКОСИСТЕМУ ЗА 99₽
               <Icon name="ArrowRight" size={20} />
-            </button>
+            </a>
             <p className="mt-4 text-xs" style={{ color: "rgba(237,232,220,0.25)", ...M }}>
               Стань частью сообщества перепрошитых
             </p>
