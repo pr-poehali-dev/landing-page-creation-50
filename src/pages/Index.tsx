@@ -116,10 +116,10 @@ export default function Index() {
           </div>
 
           <h1 className="animate-fade-in-up delay-200 mb-6 leading-none"
-            style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(3rem, 8vw, 6.5rem)", fontWeight: 300, letterSpacing: "-0.02em" }}>
-            <span style={{ color: "#EDE8DC" }}>Закрытое сообщество</span>
+            style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(3rem, 8vw, 6.5rem)", fontWeight: 300, letterSpacing: "-0.02em", textTransform: "uppercase" }}>
+            <span style={{ color: "#EDE8DC" }}>ЗАКРЫТОЕ СООБЩЕСТВО</span>
             <br />
-            <span className="gold-text" style={{ fontStyle: "italic" }}>счастливых людей</span>
+            <span className="gold-text">СЧАСТЛИВЫХ ЛЮДЕЙ</span>
           </h1>
 
           <p className="animate-fade-in-up delay-300 mb-10 mx-auto max-w-xl"
@@ -161,9 +161,9 @@ export default function Index() {
       <section className="reveal py-24 px-6 md:px-12 max-w-5xl mx-auto">
         <div className="text-center mb-16">
           <span className="inline-block px-3 py-1 mb-4 text-xs tracking-widest uppercase" style={{ color: "rgba(212,168,67,0.6)" }}>Знакомо?</span>
-          <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: 300, color: "#EDE8DC", lineHeight: 1.1 }}>
-            Когда вокруг много людей,<br />
-            <span className="gold-text" style={{ fontStyle: "italic" }}>но ты всё равно один</span>
+          <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: 300, color: "#EDE8DC", lineHeight: 1.1, textTransform: "uppercase" }}>
+            КОГДА ВОКРУГ МНОГО ЛЮДЕЙ,<br />
+            <span className="gold-text">НО ТЫ ВСЁ РАВНО ОДИН</span>
           </h2>
         </div>
         <div className="grid md:grid-cols-2 gap-4">
@@ -184,9 +184,9 @@ export default function Index() {
         style={{ background: "rgba(212,168,67,0.03)", borderTop: "1px solid rgba(212,168,67,0.08)", borderBottom: "1px solid rgba(212,168,67,0.08)" }}>
         <div className="max-w-3xl mx-auto">
           <p className="text-xs tracking-widest uppercase mb-6" style={{ color: "rgba(212,168,67,0.5)" }}>Решение</p>
-          <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4.5rem)", fontWeight: 300, color: "#EDE8DC", lineHeight: 1.15 }}>
-            Мы создали пространство, где<br />
-            <span className="gold-text" style={{ fontStyle: "italic" }}>все уже на одной волне</span>
+          <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4.5rem)", fontWeight: 300, color: "#EDE8DC", lineHeight: 1.15, textTransform: "uppercase" }}>
+            МЫ СОЗДАЛИ ПРОСТРАНСТВО, ГДЕ<br />
+            <span className="gold-text">ВСЕ УЖЕ НА ОДНОЙ ВОЛНЕ</span>
           </h2>
           <p className="mt-6 text-lg mx-auto max-w-lg"
             style={{ color: "rgba(237,232,220,0.6)", fontFamily: "'Montserrat', sans-serif", lineHeight: 1.7 }}>
@@ -199,8 +199,8 @@ export default function Index() {
       <section id="what-inside" className="reveal py-24 px-6 md:px-12 max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <p className="text-xs tracking-widest uppercase mb-4" style={{ color: "rgba(212,168,67,0.5)" }}>Структура</p>
-          <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: 300, color: "#EDE8DC" }}>
-            Что внутри экосистемы
+          <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: 300, color: "#EDE8DC", textTransform: "uppercase" }}>
+            ЧТО ВНУТРИ ЭКОСИСТЕМЫ
           </h2>
         </div>
         <div className="relative mx-auto max-w-4xl">
@@ -241,8 +241,8 @@ export default function Index() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-xs tracking-widest uppercase mb-4" style={{ color: "rgba(212,168,67,0.5)" }}>Почему это работает</p>
-            <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: 300, color: "#EDE8DC" }}>
-              Преимущества
+            <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: 300, color: "#EDE8DC", textTransform: "uppercase" }}>
+              ПРЕИМУЩЕСТВА
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-5">
@@ -261,8 +261,8 @@ export default function Index() {
       <section className="reveal py-24 px-6 md:px-12 max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <p className="text-xs tracking-widest uppercase mb-4" style={{ color: "rgba(212,168,67,0.5)" }}>Отзывы</p>
-          <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: 300, color: "#EDE8DC" }}>
-            Что говорят участники
+          <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: 300, color: "#EDE8DC", textTransform: "uppercase" }}>
+            ЧТО ГОВОРЯТ УЧАСТНИКИ
           </h2>
         </div>
         <div className="grid md:grid-cols-3 gap-5 mb-12">
@@ -273,7 +273,7 @@ export default function Index() {
                   <span key={s} style={{ color: "#D4A843", fontSize: "0.9rem" }}>★</span>
                 ))}
               </div>
-              <p style={{ color: "rgba(237,232,220,0.75)", lineHeight: 1.65, fontStyle: "italic", fontFamily: "'Oswald', sans-serif", fontSize: "1.05rem" }}>
+              <p style={{ color: "rgba(237,232,220,0.75)", lineHeight: 1.65, fontFamily: "'Oswald', sans-serif", fontSize: "1.05rem" }}>
                 «{r.text}»
               </p>
               <div className="mt-auto pt-3" style={{ borderTop: "1px solid rgba(212,168,67,0.1)" }}>
@@ -301,8 +301,8 @@ export default function Index() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-xs tracking-widest uppercase mb-4" style={{ color: "rgba(212,168,67,0.5)" }}>Всё просто</p>
-            <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: 300, color: "#EDE8DC" }}>
-              Как это работает
+            <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4rem)", fontWeight: 300, color: "#EDE8DC", textTransform: "uppercase" }}>
+              КАК ЭТО РАБОТАЕТ
             </h2>
           </div>
           <div className="grid md:grid-cols-4 gap-6">
@@ -330,11 +330,11 @@ export default function Index() {
           style={{ background: "radial-gradient(circle, rgba(212,168,67,0.08) 0%, transparent 70%)" }} />
         <div className="relative z-10 max-w-3xl mx-auto">
           <h2 className="mb-8"
-            style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(3rem, 6vw, 5.5rem)", fontWeight: 300, lineHeight: 1.1, color: "#EDE8DC" }}>
-            Ты больше<br />
-            <span className="gold-text" style={{ fontStyle: "italic" }}>не один</span>
+            style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(3rem, 6vw, 5.5rem)", fontWeight: 300, lineHeight: 1.1, color: "#EDE8DC", textTransform: "uppercase" }}>
+            ТЫ БОЛЬШЕ<br />
+            <span className="gold-text">НЕ ОДИН</span>
           </h2>
-          <p className="mb-4" style={{ color: "rgba(237,232,220,0.6)", fontFamily: "'Oswald', sans-serif", fontStyle: "italic", fontSize: "1.4rem" }}>
+          <p className="mb-4" style={{ color: "rgba(237,232,220,0.6)", fontFamily: "'Oswald', sans-serif", fontSize: "1.4rem" }}>
             Ты среди своих.
           </p>
           <p style={{ color: "rgba(237,232,220,0.45)", fontFamily: "'Montserrat', sans-serif", fontSize: "1.05rem" }}>
@@ -349,8 +349,8 @@ export default function Index() {
         <div className="max-w-2xl mx-auto">
           <p className="text-xs tracking-widest uppercase mb-6" style={{ color: "rgba(212,168,67,0.5)" }}>Начать прямо сейчас</p>
           <h2 className="mb-4"
-            style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4.5rem)", fontWeight: 300, color: "#EDE8DC", lineHeight: 1.1 }}>
-            Вступить в сообщество
+            style={{ fontFamily: "'Oswald', sans-serif", fontSize: "clamp(2.5rem, 5vw, 4.5rem)", fontWeight: 300, color: "#EDE8DC", lineHeight: 1.1, textTransform: "uppercase" }}>
+            ВСТУПИТЬ В СООБЩЕСТВО
           </h2>
           <p className="mb-10"
             style={{ color: "rgba(237,232,220,0.55)", fontFamily: "'Montserrat', sans-serif", fontSize: "1.1rem", lineHeight: 1.7 }}>
